@@ -61,6 +61,9 @@ btnStop.onclick = function () {
       setTimeout(function () {
         alert("Winner");
       }, 200);
+      // Start: Code added by Lata
+      document.documentElement.style.setProperty("--speed", -1);
+      // End: Code added by Lata
     } else {
       setTimeout(function () {
         alert("Better Luck Next Time");
